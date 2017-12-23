@@ -16,7 +16,7 @@ The reduced dataset for the project can be downloaded <a href="https://goo.gl/nm
 <a href="https://goo.gl/gd3aay"><strong>Dataset Readme</strong></a>
 
 <h3>Project report</h3>
-The project report consists of some interesting discoveries made while anaylyzing the dataset.<br/>
+The project report consists of some interesting discoveries made while analyzing the dataset.<br/>
 The report can be viewed/downloaded <a href="https://goo.gl/CDdSVR">here</a>.
 
 <h3>Project structure</h3>
@@ -27,7 +27,7 @@ The important directories in this repositories include:<br/><br/>
 <li>email-topic-modelling : LDA topic modelling of email contents</li>
 <li>url-sentiment-analysis : Sentiment analysis using Google Cloud Natural Language API</li>
 <li>url-topic-modelling : URL content classifier using Google Cloud Natural Language API</li>
-<li>miscallaneous, utility</li>
+<li>miscellaneous, utility</li>
 </ul>
 
 ## Technolgies explored
