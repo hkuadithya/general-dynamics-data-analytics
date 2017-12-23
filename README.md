@@ -12,7 +12,8 @@ GD is also a sponsor of the Discovery Analytics Center at Virginia Tech.
 The original dataset for analysis consisted of 16GB of data.<br/>
 However, the records in http_info.csv file has been reduced down from 28 to 1 million. All other files remain intact<br/>
 The records were reduced so that the dataset could be compressed down to <strong>~500MB</strong>.<br/>
-The dataset for the project can be downloaded <a href="https://goo.gl/nm3PWg">here</a>.
+The reduced dataset for the project can be downloaded <a href="https://goo.gl/nm3PWg">here</a>.<br/>
+<a href="https://goo.gl/gd3aay"><strong>Dataset Readme</strong></a>
 
 <h3>Project report</h3>
 The project report consists of some interesting discoveries made while anaylyzing the dataset.<br/>
