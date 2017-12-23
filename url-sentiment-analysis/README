@@ -1,0 +1,40 @@
+http_info.csv       -       Totally 28434424 Records (28 Million)
+Unique URLs         -       # 6033 unique urls
+
+# SENTIMENT ANALYSIS USING NaiveBayesAnalyzer and Default Pattern Analyzer...
+
+                1. URL and count (UrlCountContentMapping.py)
+                # Unique URL fields with respective count and content
+                    UrlCountContentMapping - Generates CSV file with {url, content, count} fields
+                    Records are sorted with respect to the 'Count' in Descending order
+                    count - Number of times a given URL is repeated in the http_info.csv file
+                    File Generated => url_count_content_descending.csv
+
+
+                2. Sentiment Analysis of URL content (UrlSentimentAnalysis.py)
+                # TextBlob with NaiveBayesAnalyzer used for sentiment analysis
+                # Unique URL fields with respective count, content, classification(pos or neg), p_pos (pos probability), p_neg (neg probability)
+                    UrlSentimentAnalysis - Generates CSV file with {url,content,count,classification,p_pos,p_neg} fields
+                    TextBlob with 'NaiveBayesAnalyzer' is used for Sentiment Analysis
+                    Records are sorted with respect to the 'p_neg' field in Descending order
+                    File Generated => url_naive_bayes_sentiment.csv
+
+                3. Sentiment Analysis of URL content (UrlPatternAnalyzerSentiment.py)
+                # TextBlob with PatternAnalyzer
+                # Unique URL fields with respective count, content, Polarity and Subjectivity
+                    UrlSentimentAnalysis - Generates CSV file with {url,content,count,polarity,subjectivity} fields
+                    TextBlob with 'PatternAnalyzer' is used for Sentiment Analysis
+                    Records are sorted with respect to the 'Polarity' field in Ascending order
+                    File Generated => url_pattern_analyzer_sentiment.csv
+
+                You can use the preprocessed csv files i.e.
+                1. url_count_content_descending.csv
+                2. url_naive_bayes_sentiment.csv            (generated using NaiveBayesAnalyzer)
+                3. url_pattern_analyzer_sentiment.csv       (generated using PatternAnalyzer)
+
+
+NEW_FILES_ADDED:
+
+url_google_sentiment_analysis.csv               URLS with sentiment and Text classification(category field)
+url_user_google_visit_pattern_analysis.csv      user_id,pos_count,pos_mean,neg_count,neg_mean,neutral_count,neutral_mean
+url_user_google_psychometric_analysis.csv       employee_name,user_id,O,C,E,A,N,pos_count,pos_mean,neg_count,neg_mean,neutral_count,neutral_mean
