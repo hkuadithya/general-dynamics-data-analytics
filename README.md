@@ -33,9 +33,11 @@ The important directories in this repositories include:<br/><br/>
 ## Technolgies explored
 
 1. <a href="https://goo.gl/DXVaab">Google Cloud Natural Language API</a>
-2. <a href="https://goo.gl/RGwvyL">Pandas</a>
+2. <a href="https://goo.gl/RGwvyL">Pandas data analytics</a>
 3. <a href="http://jupyter.org/">Jupyter Notebook</a>
 4. <a href="https://seaborn.pydata.org/">Seaborn: data visualization</a>
+5. <a href="https://goo.gl/iFXqxD">Latent Dirichlet Allocation (LDA)</a>
+6. <a href="https://goo.gl/pYSM3B">Vader Sentiment Analysis Library</a>
 
 ## Team Members
 
